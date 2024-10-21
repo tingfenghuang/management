@@ -1,0 +1,35 @@
+@import './reset.scss';
+
+
+//滚动条外观设计
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {// 滚动条的滑块样式
+  background-color: #bfbfbf;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {// 滚动条的滑块在鼠标悬停时的样式
+  background-color: #a8a8a8;
+}
+::-webkit-scrollbar-track {// 滚动条轨道的样式
+  background-color: #f1f1f1;
+}
+// .el-popper.is-light, .el-popper.is-light>.el-popper__arrow:before{
+//   background-color: transparent !important;
+//   border: none !important;
+  
+// }
+//   .el-pagination__sizes, .el-pagination__total{
+//     color:#000;
+//   }
+// .el-select-dropdown__item{
+//   color:#000;
+//   &:hover{
+//     background-color: rgba($color: grey, $alpha: 0.2);
+//   }
+
+// }
+
+

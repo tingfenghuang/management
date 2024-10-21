@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container"></div>
+</body>
+
+<script type="text/javascript">
+    window._AMapSecurityConfig = {
+        securityJsCode: "1ca2d2584d5abd67f405f887a6bc1dab",
+    };
+</script>
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=110000"></script>
+<script type="text/javascript">
+    //地图初始化应该在地图容器div已经添加到DOM树之后
+    var map = new AMap.Map("container", {
+        zoom: 12,
+    });
+</script>
+
+</html>
